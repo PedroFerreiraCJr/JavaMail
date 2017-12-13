@@ -2,6 +2,11 @@ package br.com.dotofcodex.restfull.domain;
 
 import javax.xml.bind.annotation.XmlRootElement;
 
+/***
+ * Classe de modelo para tarefas a serem concluidas
+ * @author Pedro Ferreira
+ * @version 1.0
+ */
 @XmlRootElement
 public class Task {
 

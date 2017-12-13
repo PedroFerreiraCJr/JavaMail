@@ -8,6 +8,12 @@ import javax.ws.rs.core.Response;
 
 import br.com.dotofcodex.restfull.domain.Task;
 
+
+/***
+ * Classe de recurso da aplicação que serializa uma tarefa
+ * @author pedro
+ * @version 1.0
+ */
 @Path("/web")
 public class SimpleHelloWorld {
 
