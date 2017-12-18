@@ -44,7 +44,7 @@ public class MainSSL {
 			// Configura o destinatário da mensagem
 			// message.setRecipients(Message.RecipientType.TO, new Address[] {
 			// new InternetAddress("pedroferreiracjr@gmail.com") });
-			message.addRecipient(Message.RecipientType.TO, new InternetAddress("pedroferreiracjr@gmail.com"));
+			message.addRecipient(Message.RecipientType.TO, new InternetAddress("TO"));
 			// Titulo da mensagem
 			message.setSubject("Nova Mensagem");
 			// Ou setContent configura o conteudo da mensagem
