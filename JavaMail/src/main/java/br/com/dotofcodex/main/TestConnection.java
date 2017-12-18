@@ -25,8 +25,8 @@ public class TestConnection {
 	private static boolean connect() {
 		
 		boolean canConnect = false;
-		final String username = "pedroferreiracjr@gmail.com";
-		final String password = "p3dr0123";
+		final String username = "EMAIL";
+		final String password = "SENHA";
 
 		Properties props = new Properties();
 		props.put("mail.smtp.auth", "true");
