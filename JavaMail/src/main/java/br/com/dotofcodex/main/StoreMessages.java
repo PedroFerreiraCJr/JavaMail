@@ -33,7 +33,7 @@ public class StoreMessages {
 			Store store = session.getStore("imaps");
 			store.connect("imap.gmail.com", username, password);
 
-			Folder[] folders = store.getDefaultFolder().list("*");
+			Folder[] folders = store.getDefaultFolder().list("Certificados FATENE");
 
 			for (Folder f : folders) {
 				if (f.getName().equals("Certificados FATENE")) {

@@ -40,11 +40,11 @@ public class MainSSL {
 			// Configura a mensagem a ser enviada
 			Message message = new MimeMessage(session);
 			// Configura o remetente da mensagem
-			message.setFrom(new InternetAddress("FROM"));
+			message.setFrom(new InternetAddress("pedroferreiracjr@gmail.com"));
 			// Configura o destinatário da mensagem
 			// message.setRecipients(Message.RecipientType.TO, new Address[] {
 			// new InternetAddress("pedroferreiracjr@gmail.com") });
-			message.addRecipient(Message.RecipientType.TO, new InternetAddress("TO"));
+			message.addRecipient(Message.RecipientType.TO, new InternetAddress("pedroferreiracjr@gmail.com"));
 			// Titulo da mensagem
 			message.setSubject("Nova Mensagem");
 			// Ou setContent configura o conteudo da mensagem
